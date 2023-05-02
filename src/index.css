@@ -1,13 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Red+Hat+Display:wght@300;400;500&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing:border-box;
+  -ms-overflow-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: #000000df;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url(https://database-upload.v3.microgen.id/file/storage/642a3f45e54f9cd0516fc55d/bgweb-XxUQroed.svg); */
+  /* width: 100%; */
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+html,body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.bg-img{
+  background-size: auto;
+  background-color: #000
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
